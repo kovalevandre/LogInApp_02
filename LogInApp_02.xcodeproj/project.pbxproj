@@ -13,6 +13,8 @@
 		CDC9D5552AD29A2500DDBFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC9D5532AD29A2500DDBFB4 /* Main.storyboard */; };
 		CDC9D5572AD29A2600DDBFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC9D5562AD29A2600DDBFB4 /* Assets.xcassets */; };
 		CDC9D55A2AD29A2600DDBFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC9D5582AD29A2600DDBFB4 /* LaunchScreen.storyboard */; };
+		CDC9D5622AD29A5900DDBFB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D5612AD29A5900DDBFB4 /* LoginViewController.swift */; };
+		CDC9D5642AD29A7100DDBFB4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC9D5632AD29A7100DDBFB4 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CDC9D5562AD29A2600DDBFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC9D5592AD29A2600DDBFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC9D55B2AD29A2600DDBFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC9D5612AD29A5900DDBFB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDC9D5632AD29A7100DDBFB4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CDC9D54D2AD29A2500DDBFB4 /* AppDelegate.swift */,
 				CDC9D54F2AD29A2500DDBFB4 /* SceneDelegate.swift */,
 				CDC9D5512AD29A2500DDBFB4 /* ViewController.swift */,
+				CDC9D5632AD29A7100DDBFB4 /* WelcomeViewController.swift */,
+				CDC9D5612AD29A5900DDBFB4 /* LoginViewController.swift */,
 				CDC9D5532AD29A2500DDBFB4 /* Main.storyboard */,
 				CDC9D5562AD29A2600DDBFB4 /* Assets.xcassets */,
 				CDC9D5582AD29A2600DDBFB4 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC9D5622AD29A5900DDBFB4 /* LoginViewController.swift in Sources */,
+				CDC9D5642AD29A7100DDBFB4 /* WelcomeViewController.swift in Sources */,
 				CDC9D5522AD29A2500DDBFB4 /* ViewController.swift in Sources */,
 				CDC9D54E2AD29A2500DDBFB4 /* AppDelegate.swift in Sources */,
 				CDC9D5502AD29A2500DDBFB4 /* SceneDelegate.swift in Sources */,
